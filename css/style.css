@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0px 20px 0px;
+}
+
+.todo-form input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #009578;
+}
+
+.todo-form button {
+    font-size: 20px;
+    padding: 3px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    background-color: rgb(4, 176, 255);
+    color: white;
+
+}
+
+.todo-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    border-top: 5px solid #009578;
+    border-bottom: 5px solid #009578;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.todo__value {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.check-button {
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #9195F6;
+    background-color: #FEECE2;
+}
+
+.trash-button{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: red;
+    background-color: #FEECE2;
+}
